@@ -3,15 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hoja de Vida</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <h1>
+    <div class="container">
+        <header>
+            <h1>HOJA DE VIDA</h1>
+        </header>
+        <section class="personal-info">
+            <h2>Información Personal</h2>
 
-        jairo computador
+            <p style="text-align: justify;">
+                Desarrollador Web Full Stack Junior con experiencia en la creación de proyectos
+                dinámicos y responsivos. Destaco por mi participación en proyectos de desarrollo
+                web para cualquier empresa, hago uso de HTML, CSS y JavaScript para
+                construir interfaces atractivas y funcionales. Además, sé implementar el framework
+                de React para optimizar la interactividad y la experiencia del usuario.
+                Uso Node.js para la creación del backend, asegurando un flujo de datos
+                eficiente y una comunicación fluida entre el frontend y el servidor. Durante mi trabajo,
+                demuestro habilidades de resolución de problemas, trabajo en equipo y
+                la capacidad para cumplir con los plazos establecidos. Mi enfoque es centrado
+                en la calidad y la usabilidad, garantizando una página web de alta calidad,
+                amigable tanto para los usuarios como para los dispositivos móviles.
+            </p>
 
-    </h1>
-
+            <div class="profile">
+                <img src="images/yop.jpg" alt="Foto de perfil">
+                <div class="profile-details">
+                    <h3>JAIRO ARTURO CUAICAL PALMA</h3>
+                    <p>Programador Fullstack MERN Junior</p>
+                    <p>Email: jairoacp777@gmail.com</p>
+                    <p>Celular: + 57 3148347787</p>
+                </div>
+            </div>
+        </section>
+        <section class="experience">
+            <h2>Experiencia Laboral</h2>
+            <ul>
+                <li>
+                    <h3>Federación internacional de fútbol "FIFA"</h3>
+                    <p>Cargo: Desarrollador FullStack</p>
+                    <p>Fecha: 2018 - 2020</p>
+                    <p>Descripción: Desarrollo y mantenimiento de la pagina web www.fifa.com utilizando tecnologías MERN.</p>
+                </li>
+                <li>
+                    <h3>Mercado Libre Colombia</h3>
+                    <p>Cargo: Frontend Developer</p>
+                    <p>Fecha: 2016 - 2018</p>
+                    <p>Descripción: Desarrollo de interfaces de usuario utilizando HTML, CSS y JavaScript.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="skills">
+            <h2>Competencias Profesionales</h2>
+            <ul>
+                <li>
+                    <span style="color: blue;">HTML</span>
+                    <progress value="80" max="100"></progress>
+                </li>
+                <li>
+                    <span style="color: blue;">CSS</span>
+                    <progress value="90" max="100"></progress>
+                </li>
+                <li>
+                    <span style="color: blue;">JavaScript</span>
+                    <progress value="75" max="100"></progress>
+                </li>
+                <li>
+                    <span style="color: blue;">React</span>
+                    <progress value="85" max="100"></progress>
+                </li>
+                <li>
+                    <span style="color: blue;">Node.js</span>
+                    <progress value="70" max="100"></progress>
+                </li>
+                <li>
+                    <span style="color: blue;">Express.js</span>
+                    <progress value="80" max="100"></progress>
+                </li>
+                <li>
+                    <span style="color: blue;">MongoDB</span>
+                    <progress value="75" max="100"></progress>
+                </li>
+            </ul>
+        </section>
+        <section class="software">
+            <h2>Desempeño</h2>
+            <ul>
+                <li>Visual Studio Code</li>
+                <li>Git</li>
+                <li>Front end</li>
+                <li>Back end</li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2>Contactar</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Contactar</button>
+            </form>
+            <div class="social-buttons">
+                <a href="https://wa.me/573148347787?text=%C2%A1Hola!%20Jairo,%20
+                        necesito%20tu%20ayuda%20como%20desarrollador%20web,%20%C2%
+                        BFPodr%C3%ADas%20ayudarme?%20" target="_blank">
+                    <img src="images/logowsp.png" alt="WhatsApp">
+                </a>
+                <a href="https://goo.gl/maps/saRTBsohHX4Be8677" target="_blank">
+                    <img src="images/ubicacion.png" alt="Ubicación">
+                </a>
+                <a href="https://www.facebook.com/JairoACPalma" target="_blank">
+                    <img src="images/facebook.png" alt="Facebook">
+                </a>
+                <a href="https://www.linkedin.com/in/jairoacp777/" target="_blank">
+                    <img src="images/linked.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/JairoACPalma" target="_blank">
+                    <img src="images/git.png" alt="Git">
+                </a>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
